@@ -1,19 +1,20 @@
 #printing the rainbow color based on the option
 
-colour=int(input("enter the colour number to check:"))
-if colour==1:
+colour_code=input("enter the colour code to check:")
+if colour_code=="v":
     print("Violet")
-elif colour==2:
+elif colour_code=="i":
     print("Indigio")
-elif colour==3:
+elif colour_code=="b":
     print("Blue")
-elif colour==4:
+elif colour_code=="g":
     print("Green")
-elif colour==5:
+elif colour_code=="y":
     print("Yellow")
-elif colour==6:
+elif colour_code=="o":
     print("Orange")
-elif colour==7:
+elif colour_code=="r":
     print("Red")
 else:
-    print("enter the valid  colour num")
+    print("enter the valid  color_code")
+    
