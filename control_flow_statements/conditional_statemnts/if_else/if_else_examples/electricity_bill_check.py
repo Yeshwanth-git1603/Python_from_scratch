@@ -23,9 +23,7 @@ elif units > 150 and units <=200:
         
 elif units >200 and units <=300:
     unit_charge=5.50
-    total_units=current_reading-previous_reading
     print("the total units consumed is:",total_units)
-    total_amount=total_units*unit_charge
     print("the total amount is:",total_amount)
         
 elif units >300:
