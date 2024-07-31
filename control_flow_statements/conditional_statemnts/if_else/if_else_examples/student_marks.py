@@ -19,4 +19,4 @@ elif average>60:
 elif average<50:
     print(f"{student_name} passesd in third class:",total)
 else:
-    print(f"{student_name} failed:")
+    print("enter the valid marks")
