@@ -16,7 +16,7 @@ f=open("super_cars.txt","r")
 print(f.read())
 
 print(f.readline())
-print(f.readlines(0))
+
 
 f=open("sample.txt","rb")
 print(f.read())
