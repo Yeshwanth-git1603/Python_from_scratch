@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 set -e
-set -x
 
 Date=$(date)
 
@@ -25,4 +24,12 @@ else
 	echo" command not found "
 fi
 
+user_name=$(uname)
+
+if [ $user_name -eq 0 ]
+then
+	ls -ltr
+else
+	echo "command is not found"
+fi
 
